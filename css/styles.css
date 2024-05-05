@@ -1,0 +1,45 @@
+
+header > img {
+    height: 40px;
+    width: 100px;
+}
+
+
+.flexbox {
+    display: flex;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+
+header > ul {
+    list-style: none;
+    gap: 1em;              /*  Propiedad de Flexbox (recordar que ul tiene la clase "flexbox")   */
+}
+
+
+header {
+    background-color: #c6c2c2;
+    padding: .5em;
+    justify-content: space-between;        /*  Propiedad de Flexbox (recordar que header tiene la clase "flexbox")  */
+    align-items: center;                   /*  Propiedad de Flexbox  */
+}
+
+
+.contenedor_grid {
+    background: rgb(138, 79, 198);
+    padding: 10px;
+    display: grid;
+    gap: 15px;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    
+}
+
+img {
+    border-radius: 8px;
+    width: 100%;
+    height: 70%;
+}
