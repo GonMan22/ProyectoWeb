@@ -1,45 +1,309 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-header > img {
-    height: 40px;
-    width: 100px;
+html {
+    scroll-behavior: smooth;
 }
 
-
-.flexbox {
-    display: flex;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
+body {
+    margin: 4.5rem 0;
+}
 
 a {
     text-decoration: none;
+    color: black;
 }
 
-
-header > ul {
-    list-style: none;
-    gap: 1em;              /*  Propiedad de Flexbox (recordar que ul tiene la clase "flexbox")   */
+.li_a {
+    color: white;
 }
 
-
-header {
-    background-color: #c6c2c2;
-    padding: .5em;
-    justify-content: space-between;        /*  Propiedad de Flexbox (recordar que header tiene la clase "flexbox")  */
-    align-items: center;                   /*  Propiedad de Flexbox  */
+a:hover,
+.li_a:hover {
+    color: blue;
 }
 
+.anchor {
+    scroll-margin-top: 4.5rem;
+}
 
-.contenedor_grid {
-    background: rgb(138, 79, 198);
-    padding: 10px;
-    display: grid;
-    gap: 15px;
-    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-    
+.header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    background-color: #ffffff;
+    padding: .2em;
+    box-shadow: 0px -3px 10px 0px;
+    /* padding: .5rem 2rem; */
+}
+
+.logo {
+    width: 100px;
 }
 
 img {
-    border-radius: 8px;
     width: 100%;
-    height: 70%;
+}
+
+.menu {
+    max-width: 32px;
+    margin-right: 1rem;
+}
+
+.nav {
+    display: none;
+}
+
+.nav_mobile {
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100%;
+}
+
+.ul {
+    display: flex;
+    gap: 1rem;
+    list-style-type: none;
+    padding-left: 0;
+    margin: 0;
+
+    flex-direction: column;
+    padding: 5rem 3rem;
+    width: 16rem;
+}
+
+.h1,
+.p {
+    text-align: center;
+}
+
+.section {
+    width: 100%;
+    padding: 1rem 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.catalogue {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.card {
+    max-width: 10rem;
+}
+
+.post {
+    border-radius: 1rem;
+    width: 100%;
+    min-height: 16.62rem;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.cerrar {
+    cursor: pointer;
+    color: white;
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    padding: .5rem;
+}
+
+.none {
+    display: none;
+}
+
+.block {
+    display: block;
+}
+
+.max_text {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form{
+    width: 100%;
+    max-width: 22rem;
+    min-width: 13rem;
+}
+
+.div_input{
+    margin-top: .5rem;
+    display: flex;
+    flex-direction: column;
+}
+.div_input label{
+    margin-left: .5rem;
+    font-weight: 700;
+}
+input[type="text"],
+input[type="number"],
+input[type="email"],
+input[type="tel"] {
+    height: 40px;
+    /* margin: 5px; */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    color: #333;
+    background-color: #fff;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+}
+textarea {
+    height: 80px;
+    margin: 5px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    color: #333;
+    background-color: #fff;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+    overflow-y: auto;
+    resize: none;
+}
+
+select {
+    height: 40px;
+    margin: 5px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    color: #333;
+    background-color: #fff;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+    appearance: none;
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+    background-size: 20px 20px;
+}
+
+input[type="file"] {
+    width: 300px;
+    height: 40px;
+    margin: 5px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    color: #333;
+    background-color: #fff;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+    appearance: none;
+}
+
+.terminos{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+.terminos label{
+    font-size: small;
+    font-weight: 400;
+}
+
+.volver{
+    background-color: rgb(53, 17, 211);
+    padding: .5rem 1rem;
+    border-radius: .5rem;
+    color: white;
+    margin-top: 1rem;
+
+}
+.volver:hover{
+    background-color: rgb(124, 17, 211);
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* MEDIA QUERIES */
+/* TABLET */
+@media screen and (min-width: 768px) {
+    .catalogue {
+        padding: 0 2rem;
+    }
+}
+
+/* DESKTOP */
+@media screen and (min-width: 1025px) {
+
+    .menu,
+    .cerrar {
+        display: none;
+    }
+
+    .nav {
+        display: block;
+        width: 19rem;
+    }
+
+    .ul {
+        flex-direction: row;
+        padding: 0;
+    }
+
+    .li_a {
+        color: black;
+    }
+
+    .catalogue {
+        margin: auto;
+        max-width: 80%;
+    }
 }

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="./../css/styles.css">
+
+</head>
+
+<body>
+    <header class="header">
+        <figure class="logo">
+            <img src="./../img/Marvel_Logo.svg.png" alt="Logo de Marvel">
+        </figure>
+
+        <img src="./../img/claqueta.png" alt="" class="menu">
+        <nav class="nav">
+            <span class="cerrar">X</span>
+
+            <ul class="ul">
+                <li>
+                    <a href="./../index.html" class="li_a">Inicio</a>
+                </li>
+                <li>
+                    <a href="movies.html" class="li_a">Peliculas</a>
+                </li>
+                <li>
+                    <a href="series.html" class="li_a">Series</a>
+                </li>
+                <li>
+                    <a href="#" class="li_a">Contacto</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="main">
+        <h1>Contáctanos</h1>
+        <form action="gracias.html" method="get" enctype="multipart/form-data"
+            onsubmit="return validarFormulario()" class="form">
+            <div class="div_input">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+            </div>
+
+            <div class="div_input">
+                <label for="email">Correo Electrónico:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+
+            <div class="div_input">
+                <label for="telefono">Teléfono:</label>
+                <input type="tel" id="telefono" name="telefono" required>
+            </div>
+
+            <div class="div_input">
+                <label for="asunto">Asunto:</label>
+                <input type="text" id="asunto" name="asunto" required>
+            </div>
+
+            <div class="div_input">
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+            </div>
+
+            <div class="div_input">
+                <label for="motivo">Motivo de contacto:</label>
+                <select id="motivo" name="motivo" required>
+                    <option value="">Seleccione</option>
+                    <option value="consulta">Consulta</option>
+                    <option value="soporte">Soporte</option>
+                    <option value="sugerencia">Sugerencia</option>
+                </select>
+            </div>
+
+
+            <div class="div_input">
+                <label for="imagen">Subir imagen:</label>
+                <input type="file" id="imagen" name="imagen" accept="image/*" required>
+            </div>
+
+            <div class="div_input terminos">
+                <label>Acepta los términos y condiciones</label>
+                <div class="box_checkboxes">
+                    <input type="checkbox" id="acepta" name="acepta" required>
+                </div>
+            </div>
+
+            <div class="div_input">
+                <input type="submit" value="Enviar">
+            </div>
+        </form>
+    </main>
+</body>
+<script src="./../js/script.js"></script>
+<script src="./../js/menu_burguer.js"></script>
+
+</html>

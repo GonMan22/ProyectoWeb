@@ -7,9 +7,7 @@
     <title>Marvel</title>
 
     <!-- Estilos CSS -->
-    <link rel="stylesheet" type="text/css" href="./css/styles.css">
-
-
+    <link rel="stylesheet" type="text/css" href="./../css/styles.css">
 </head>
 
 <body>
@@ -17,26 +15,26 @@
     <header class="header">
 
         <figure class="logo">
-            <img src="./img/Marvel_Logo.svg.png" alt="Logo de Marvel">
+            <img src="./../img/Marvel_Logo.svg.png" alt="Logo de Marvel">
         </figure>
 
         
-        <img src="./img/claqueta.png" alt="" class="menu">
+        <img src="./../img/claqueta.png" alt="" class="menu">
         <nav class="nav">
             <span class="cerrar">X</span>
 
             <ul class="ul">
                 <li>
-                    <a href="#h1" class="li_a">Inicio</a>
+                    <a href="./../index.html" class="li_a">Inicio</a>
                 </li>
                 <li>
-                    <a href="./views/movies.html" class="li_a">Peliculas</a>
+                    <a href="#" class="li_a">Peliculas</a>
                 </li>
                 <li>
-                    <a href="./views/series.html" class="li_a">Series</a>
+                    <a href="series.html" class="li_a">Series</a>
                 </li>
                 <li>
-                    <a href="./views/contacto.html" class="li_a">Contacto</a>
+                    <a href="contacto.html" class="li_a">Contacto</a>
                 </li>
             </ul>
         </nav>
@@ -44,7 +42,10 @@
     </header>
 
     <main>
-        <h1 id="h1" class="h1 anchor">Index</h1>
+        <section class="section">
+            <h1 id="h1" class="h1 anchor">Peliculas destacadas</h1>
+            <div id="movies" class="catalogue"></div>
+        </section>
     </main>
 
     <footer class="footer">
@@ -53,7 +54,6 @@
         </p>
     </footer>
 </body>
-<script src="js/script.js"></script>
-<script src="js/menu_burguer.js"></script>
-
+<script src="./../js/script.js"></script>
+<script src="./../js/menu_burguer.js"></script>
 </html>

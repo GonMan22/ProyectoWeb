@@ -1,0 +1,326 @@
+{
+  "movies": [
+    {
+      "title": "Titanic",
+      "year": 1997,
+      "director": "James Cameron",
+      "genre": ["Drama", "Romance"],
+      "rating": 7.8,
+      "img": "https://picsum.photos/id/237/200/300"
+    },
+    {
+      "title": "The Godfather",
+      "year": 1972,
+      "director": "Francis Ford Coppola",
+      "genre": ["Crime", "Drama"],
+      "rating": 9.2,
+      "img": "https://picsum.photos/id/237/200/300"
+    },
+    {
+      "title": "Schindler's List",
+      "year": 1993,
+      "director": "Steven Spielberg",
+      "genre": ["Biography", "Drama", "History"],
+      "rating": 8.9,
+      "img": "https://picsum.photos/id/237/200/300"
+    },
+    {
+      "title": "The Lord of the Rings: The Return of the King",
+      "year": 2003,
+      "director": "Peter Jackson",
+      "genre": ["Adventure", "Drama", "Fantasy"],
+      "rating": 8.9,
+      "img": "https://picsum.photos/id/237/200/300"
+    },
+    {
+      "title": "Forrest Gump",
+      "year": 1994,
+      "director": "Robert Zemeckis",
+      "genre": ["Drama", "Romance"],
+      "rating": 8.8,
+      "img": "https://picsum.photos/id/237/200/300"
+    },
+    {
+      "title": "The Dark Knight",
+      "year": 2008,
+      "director": "Christopher Nolan",
+      "genre": ["Action", "Crime", "Drama"],
+      "rating": 9.0,
+      "img": "https://picsum.photos/id/237/200/300"
+    },
+    {
+      "title": "The Good, the Bad and the Ugly",
+      "year": 1966,
+      "director": "Sergio Leone",
+      "genre": ["Western"],
+      "rating": 8.8,
+      "img": "https://picsum.photos/id/237/200/300"
+    },
+    {
+      "title": "Pulp Fiction",
+      "year": 1994,
+      "director": "Quentin Tarantino",
+      "genre": ["Crime", "Drama"],
+      "rating": 8.9,
+      "img": "https://picsum.photos/id/237/200/300"
+    },
+    {
+      "title": "Life is Beautiful",
+      "year": 1997,
+      "director": "Roberto Benigni",
+      "genre": ["Comedy", "Drama", "War"],
+      "rating": 8.6,
+      "img": "https://picsum.photos/id/237/200/300"
+    },
+    {
+      "title": "Gladiator",
+      "year": 2000,
+      "director": "Ridley Scott",
+      "genre": ["Action", "Adventure", "Drama"],
+      "rating": 8.5,
+      "img": "https://picsum.photos/id/237/200/300"
+    },
+    {
+      "title": "The Shining",
+      "year": 1980,
+      "director": "Stanley Kubrick",
+      "genre": ["Drama", "Horror"],
+      "rating": 8.4,
+      "img": "https://picsum.photos/id/237/200/300"
+    },
+    {
+      "title": "Interstellar",
+      "year": 2014,
+      "director": "Christopher Nolan",
+      "genre": ["Adventure", "Drama", "Science Fiction"],
+      "rating": 8.6,
+      "img": "https://picsum.photos/id/237/200/300"
+    },
+    {
+      "title": "Inception",
+      "year": 2010,
+      "director": "Christopher Nolan",
+      "genre": ["Action", "Adventure", "Science Fiction"],
+      "rating": 8.8,
+      "img": "https://picsum.photos/id/237/200/300"
+    },
+    {
+      "title": "Back to the Future",
+      "year": 1985,
+      "director": "Robert Zemeckis",
+      "genre": ["Adventure", "Comedy", "Science Fiction"],
+      "rating": 8.5,
+      "img": "https://picsum.photos/id/237/200/300"
+    },
+    {
+      "title": "La La Land",
+      "year": 2016,
+      "director": "Damien Chazelle",
+      "genre": ["Comedy", "Drama", "Musical"],
+      "rating": 8.0,
+      "img": "https://picsum.photos/id/237/200/300"
+    },
+    {
+      "title": "The Matrix",
+      "year": 1999,
+      "director": "Lana Wachowski, Lilly Wachowski",
+      "genre": ["Action", "Science Fiction"],
+      "rating": 8.7,
+      "img": "https://picsum.photos/id/237/200/300"
+    },
+    {
+      "title": "The Silence of the Lambs",
+      "year": 1991,
+      "director": "Jonathan Demme",
+      "genre": ["Crime", "Drama", "Thriller"],
+      "rating": 8.6,
+      "img": "https://picsum.photos/id/237/200/300"
+    },
+    {
+      "title": "Toy Story",
+      "year": 1995,
+      "director": "John Lasseter",
+      "genre": ["Animation", "Adventure", "Comedy"],
+      "rating": 8.3,
+      "img": "https://picsum.photos/id/237/200/300"
+    },
+    {
+      "title": "Citizen Kane",
+      "year": 1941,
+      "director": "Orson Welles",
+      "genre": ["Drama", "Mystery"],
+      "rating": 8.3,
+      "img": "https://picsum.photos/id/237/200/300"
+    },
+    {
+      "title": "The Lion King",
+      "year": 1994,
+      "director": "Roger Allers, Rob Minkoff",
+      "genre": ["Animation", "Adventure", "Drama"],
+      "rating": 8.5,
+      "img": "https://picsum.photos/id/237/200/300"
+    }
+  ],
+  "series": [
+    {
+      "title": "Breaking Bad",
+      "year": 2008,
+      "creator": "Vince Gilligan",
+      "genre": ["Crime", "Drama", "Thriller"],
+      "rating": 9.5,
+      "img": "https://picsum.photos/id/237/200/300"
+    },
+    {
+      "title": "Game of Thrones",
+      "year": 2011,
+      "creator": "David Benioff, D.B. Weiss",
+      "genre": ["Action", "Adventure", "Drama"],
+      "rating": 9.3,
+      "img": "https://picsum.photos/id/237/200/300"
+    },
+    {
+      "title": "The Sopranos",
+      "year": 1999,
+      "creator": "David Chase",
+      "genre": ["Crime", "Drama"],
+      "rating": 9.2,
+      "img": "https://picsum.photos/id/237/200/300"
+    },
+    {
+      "title": "Stranger Things",
+      "year": 2016,
+      "creator": "Matt Duffer, Ross Duffer",
+      "genre": ["Drama", "Fantasy", "Horror"],
+      "rating": 8.7,
+      "img": "https://picsum.photos/id/237/200/300"
+    },
+    {
+      "title": "The Crown",
+      "year": 2016,
+      "creator": "Peter Morgan",
+      "genre": ["Biography", "Drama", "History"],
+      "rating": 8.7,
+      "img": "https://picsum.photos/id/237/200/300"
+    },
+    {
+      "title": "The Mandalorian",
+      "year": 2019,
+      "creator": "Jon Favreau",
+      "genre": ["Action", "Adventure", "Fantasy"],
+      "rating": 8.8,
+      "img": "https://picsum.photos/id/237/200/300"
+    },
+    {
+      "title": "Friends",
+      "year": 1994,
+      "creator": "David Crane, Marta Kauffman",
+      "genre": ["Comedy", "Romance"],
+      "rating": 8.9,
+      "img": "https://picsum.photos/id/237/200/300"
+    },
+    {
+      "title": "The Office",
+      "year": 2005,
+      "creator": "Greg Daniels, Ricky Gervais, Stephen Merchant",
+      "genre": ["Comedy"],
+      "rating": 8.9,
+      "img": "https://picsum.photos/id/237/200/300"
+    },
+    {
+      "title": "Sherlock",
+      "year": 2010,
+      "creator": "Mark Gatiss, Steven Moffat",
+      "genre": ["Crime", "Drama", "Mystery"],
+      "rating": 9.1,
+      "img": "https://picsum.photos/id/237/200/300"
+    },
+    {
+      "title": "House of Cards",
+      "year": 2013,
+      "creator": "Beau Willimon",
+      "genre": ["Drama"],
+      "rating": 8.7,
+      "img": "https://picsum.photos/id/237/200/300"
+    },
+    {
+      "title": "Black Mirror",
+      "year": 2011,
+      "creator": "Charlie Brooker",
+      "genre": ["Drama", "Sci-Fi", "Thriller"],
+      "rating": 8.8,
+      "img": "https://picsum.photos/id/237/200/300"
+    },
+    {
+      "title": "The Simpsons",
+      "year": 1989,
+      "creator": "James L. Brooks, Matt Groening, Sam Simon",
+      "genre": ["Animation", "Comedy"],
+      "rating": 8.7,
+      "img": "https://picsum.photos/id/237/200/300"
+    },
+    {
+      "title": "Fargo",
+      "year": 2014,
+      "creator": "Noah Hawley",
+      "genre": ["Crime", "Drama", "Thriller"],
+      "rating": 8.9,
+      "img": "https://picsum.photos/id/237/200/300"
+    },
+    {
+      "title": "Mindhunter",
+      "year": 2017,
+      "creator": "Joe Penhall",
+      "genre": ["Crime", "Drama", "Thriller"],
+      "rating": 8.6,
+      "img": "https://picsum.photos/id/237/200/300"
+    },
+    {
+      "title": "The Witcher",
+      "year": 2019,
+      "creator": "Lauren Schmidt Hissrich",
+      "genre": ["Action", "Adventure", "Drama"],
+      "rating": 8.2,
+      "img": "https://picsum.photos/id/237/200/300"
+    },
+    {
+      "title": "Chernobyl",
+      "year": 2019,
+      "creator": "Craig Mazin",
+      "genre": ["Drama", "History", "Thriller"],
+      "rating": 9.4,
+      "img": "https://picsum.photos/id/237/200/300"
+    },
+    {
+      "title": "Westworld",
+      "year": 2016,
+      "creator": "Lisa Joy, Jonathan Nolan",
+      "genre": ["Drama", "Mystery", "Sci-Fi"],
+      "rating": 8.6,
+      "img": "https://picsum.photos/id/237/200/300"
+    },
+    {
+      "title": "Better Call Saul",
+      "year": 2015,
+      "creator": "Vince Gilligan, Peter Gould",
+      "genre": ["Crime", "Drama"],
+      "rating": 8.7,
+      "img": "https://picsum.photos/id/237/200/300"
+    },
+    {
+      "title": "The Haunting of Hill House",
+      "year": 2018,
+      "creator": "Mike Flanagan",
+      "genre": ["Drama", "Horror", "Mystery"],
+      "rating": 8.6,
+      "img": "https://picsum.photos/id/237/200/300"
+    },
+    {
+      "title": "Narcos",
+      "year": 2015,
+      "creator": "Carlo Bernard, Chris Brancato, Doug Miro",
+      "genre": ["Biography", "Crime", "Drama"],
+      "rating": 8.8,
+      "img": "https://picsum.photos/id/237/200/300"
+    }
+  ]
+}
